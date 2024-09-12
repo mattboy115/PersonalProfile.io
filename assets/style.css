@@ -3,11 +3,50 @@
     src: url(fonts/Heavitas.ttf);
   }
 
+  @font-face {
+    font-family: Bebas;
+    src: url(fonts/BebasNeue-Regular.ttf);
+  }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     margin: 0;
     padding: 0;
+}
+
+nav { 
+    background-color: rgba(128, 128, 128, 0);
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    text-align: right;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 3px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Bebas;
+    padding: 7px;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    transition: 1s;
+    color: black;
+    background-color: white;
 }
 
 header { 
@@ -32,39 +71,48 @@ header h2 {
     color: white;
 }
 
-nav { 
-    background-color: rgba(128, 128, 128, 0);
-}
-
-nav ul {
-    list-style: none;
-    padding: 5px;
-    text-align: center;
+.full-width {
     margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
 }
 
-nav ul li {
-    padding: 3px;
-    padding-left: 7%;
-    padding-right: 7%;
-    display: inline;
+.full-width h3 {
+    font-family: Bebas;
+    font-size: 30px;
+    letter-spacing: .2rem;
 }
 
-nav ul li:hover {
-    display: inline;
-    background: white;
-    
+.full-width p {
+    font-size: 20px;
 }
 
-nav ul li a {
+.full-width #email {
     text-decoration: none;
     color: white;
-    font-family: 'Lucida Sans', 
-    'Lucida Sans Regular', 
-    'Lucida Grande', 
-    'Lucida Sans Unicode', 
-    Verdana, sans-serif;
+}
 
+.full-width #email:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#contact-info {
+    float: left;
+    width: 40%;
+    border: solid red;
+}
+
+#contact-photo {
+    float: right;
+    width: 59%;
+    border: solid red;
+}
+
+#image01 {
+    width: 50%;
+    border-radius: 20px
 }
 
 #reference {
@@ -76,5 +124,11 @@ footer {
 }
 
 footer p {
+    background-color: rgb(68, 68, 68);
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
+    color: white;
+    padding: 20px;
 }
