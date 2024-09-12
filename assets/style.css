@@ -1,37 +1,80 @@
+@font-face {
+    font-family: Heavitas;
+    src: url(fonts/Heavitas.ttf);
+  }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
+    background-color: black;
     margin: 0;
     padding: 0;
 }
 
 header { 
-    background-color: blue;
-    text-align: center;
+    margin-top: 80px;
+    text-align: left;
+    font-family: Heavitas;
 }
 
 header h1 {
-    background-color:chartreuse;
-    padding: 20px;
+    color: white;
+    padding: o;
     margin: 0;
+    margin-left: 10%;
+    font-size: 30px;
 }
 
 header h2 {
-    padding: 20p;
+    font-size: 90px;
+    padding: 0;
     margin: 0;
+    margin-left: 10%;
+    color: white;
 }
 
 nav { 
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0);
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 5px;
     text-align: center;
     margin: 0;
 }
 
+nav ul li {
+    padding: 3px;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: inline;
+}
+
+nav ul li:hover {
+    display: inline;
+    background: white;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode', 
+    Verdana, sans-serif;
+
+}
+
 #reference {
     padding: 50%;
+}
+
+footer {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
 }
