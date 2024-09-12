@@ -13,6 +13,7 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 nav { 
@@ -72,6 +73,8 @@ header h2 {
 }
 
 .full-width {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
@@ -82,6 +85,7 @@ header h2 {
     font-family: Bebas;
     font-size: 30px;
     letter-spacing: .2rem;
+    width: 100%;
 }
 
 .full-width p {
@@ -111,7 +115,7 @@ header h2 {
 }
 
 #image01 {
-    width: 50%;
+    width: 30%;
     border-radius: 20px
 }
 
